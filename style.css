@@ -1,0 +1,132 @@
+table {
+  width: 100%;
+}
+td {
+  width: 10%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+
+
+td a {
+    visibility:hidden;
+    text-align: center;
+
+}
+
+td a:hover{
+    visibility: visible;
+}
+
+td .content {
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #daff38;}
+  
+  td .content:hover {
+      background: #A8201A;}
+
+/* BASE PAGE */
+.ArtsAndSciences {
+  position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+  background: #A8201A;}
+
+.ArtsAndSciences:hover {
+    background: #ff7770;
+}
+
+.ArtsAndSciencesKey {background: #A8201A;}
+
+
+td .VPA {
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #EC9A29;}
+  
+  td .VPA:hover {
+    background: #ffcd88;}
+
+td .ECS {
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #D0F582;}
+  
+  td .ECS:hover {
+    background: #eaffbd;}
+  
+td .Falk{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #3CCE74;}
+  
+  td .Falk:hover {
+    background: #88ffb5;}
+
+td .Newhouse{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #4DFFFF;}
+  
+  td .Newhouse:hover {
+    background: #98ffff;}
+td .Education{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #4646FF;}
+  
+  td .Education:hover {
+    background: #8080ff;}
+
+td .Whitman{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #9A80C6;
+    ;}
+  
+  td .Whitman:hover {
+    background: #c8a8ff;}
+
+td .Other{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #143642;
+    color: #FFFFFF}
+  
+  td .Other:hover {
+    background: #345663;
+    color: #FFFFFF}
+
+td .iSchool{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #FF729F;}
+  
+  td .iSchool:hover {
+    background: #ffa6c2;}
+td .Architecture{
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    background: #7A5C61;}
+  
+  td .Architecture:hover {
+    background: #8d7e81;} 
+
+
+.normaltable {
+ 
+    position:sticky;
+    height:auto;
+
+}
+
+.normaltable td:after {
+    content: none;
+    display: inline;
+    margin-top: 100%;
+    
+    
+    width:100%;
+}
+
+.normaltable table, th, td {
+    border: 1px solid;
+  }
+
+.floatLeft { width: 50%; float: left; }
+.floatRight {width: 50%; float: right; }
+.container { overflow: hidden; }
